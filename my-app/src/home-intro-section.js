@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
+import MyNameIsTextComponet from "./baseComponents/MyNameIsTextComponet.jsx";
 class HomeIntro extends Component {
     render() {
         return (
             <section className="hero">
                 <div className="hero-content">
-                    <h1 class="display-4">
-                        My Name is Paul 
-                    </h1>
+                    <MyNameIsTextComponet name={"Paul"} />
 
                     <h2 class="lead">
                         Nice to Meet You
@@ -18,7 +16,7 @@ class HomeIntro extends Component {
                     </button>
                 </div>
             </section>
-            
+
         )
     }
 }
