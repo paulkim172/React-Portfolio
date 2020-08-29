@@ -1,3 +1,5 @@
 # React-Portfolio
 
-This is Paul Kim's readme
+This is Paul Kim's ReadMe
+
+Hello World
