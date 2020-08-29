@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyNameIsTextComponet from "./baseComponents/MyNameIsTextComponet.jsx";
 import { Link } from 'react-router-dom';
 import { Button } from "react-bootstrap";
+import Greetings from './baseComponents/Greetings.jsx';
 class HomeIntro extends Component {
 
     // onSubmit = () => {
@@ -14,9 +15,7 @@ class HomeIntro extends Component {
             <section className="hero">
                 <div className="hero-content">
                     <MyNameIsTextComponet name={"Paul"} />
-                    <h2 class="lead">
-                        Nice to Meet You
-                    </h2>
+                    <Greetings message={"Nice to meet you, friend."} />
                     <Link to={'/projects'} className='link'>
                         <Button variant="primary">
                             Projects
