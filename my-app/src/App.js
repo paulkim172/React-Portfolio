@@ -9,6 +9,7 @@ import './App.css';
 import Header from './header';
 import Footer from './footer';
 import Home from './home-page';
+import AboutMe from './about-me-page';
 import Projects from './projects-page';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
 
         <Route exact path="/" component={Home}/>
         <Route path ="/projects" component={Projects}/>
-
+        <Route path ="/about-me" component={AboutMe}/>
 
       </Switch>
       
