@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import MyNameIsTextComponent from "./baseComponents/MyNameIsTextComponent.jsx";
+import MyNameIsTextComponent from "../baseComponents/MyNameIsTextComponent.jsx";
 import { Link } from 'react-router-dom';
 import { Button } from "react-bootstrap";
-import Greetings from './baseComponents/Greetings.jsx';
+import Greetings from '../baseComponents/Greetings.jsx';
 class HomeIntro extends Component {
 
     // onSubmit = () => {
