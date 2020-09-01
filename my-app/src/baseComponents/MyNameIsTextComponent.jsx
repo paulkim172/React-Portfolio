@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MyNameIsTextComponet extends Component {
+class MyNameIsTextComponent extends Component {
   constructor(props) {
     // Required step: always call the parent class' constructor
     super(props);
@@ -24,4 +24,4 @@ class MyNameIsTextComponet extends Component {
   }
 }
 
-export default MyNameIsTextComponet;
+export default MyNameIsTextComponent;

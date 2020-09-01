@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyNameIsTextComponet from "./baseComponents/MyNameIsTextComponet.jsx";
+import MyNameIsTextComponent from "./baseComponents/MyNameIsTextComponent.jsx";
 import { Link } from 'react-router-dom';
 import { Button } from "react-bootstrap";
 import Greetings from './baseComponents/Greetings.jsx';
@@ -14,7 +14,7 @@ class HomeIntro extends Component {
         return (
             <section className="hero">
                 <div className="hero-content">
-                    <MyNameIsTextComponet name={"Paul"} />
+                    <MyNameIsTextComponent name={"Paul"} />
                     <Greetings message={"Nice to meet you, friend."} />
                     <Link to={'/projects'} className='link'>
                         <Button variant="primary">
