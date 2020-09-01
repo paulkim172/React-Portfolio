@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HomeIntro from './home-intro-section';
-import HomeMenu from './home-menu-section';
+import HomeIntro from './sections/home-intro-section';
+import HomeMenu from './sections/home-menu-section';
 
 class Home extends Component {
     render() {
