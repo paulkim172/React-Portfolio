@@ -10,7 +10,7 @@ import Header from './header';
 import Footer from './footer';
 import Home from './home-page';
 import AboutMe from './about-me-page';
-import Projects from './projects-page';
+import Portfolio from './portfolio-page';
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
       <Header/>
 
       <Switch>
-
         <Route exact path="/" component={Home}/>
-        <Route path ="/projects" component={Projects}/>
+        <Route path ="/portfolio" component={Portfolio}/>
         <Route path ="/about-me" component={AboutMe}/>
+
 
       </Switch>
       

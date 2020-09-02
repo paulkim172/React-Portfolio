@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom';
 
 
 class HomeMenu extends Component {
@@ -21,7 +22,10 @@ class HomeMenu extends Component {
                                         <Card.Text>
                                             My work collection, including personal projects
                                         </Card.Text>
-                                        <Button variant="primary">Go to Portfolio</Button>
+                                        <Link to="/projects">
+                                            <Button variant="primary">Go to Portfolio</Button>  
+                                        </Link>
+                                        
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -34,7 +38,9 @@ class HomeMenu extends Component {
                                         <Card.Text>
                                             A little more about who I am and what I look forward to.
                                         </Card.Text>
-                                        <Button variant="primary">Go to About Me</Button>
+                                        <Link to="/about-me">
+                                            <Button variant="primary">Go to About Me</Button>   
+                                        </Link>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -47,7 +53,9 @@ class HomeMenu extends Component {
                                         <Card.Text>
                                             Accounts I have you can contact me in.
                                         </Card.Text>
-                                        <Button className="menu-button" variant="primary">Go to Contact Me</Button>
+                                        <Link to="/contact-me">
+                                            <Button className="menu-button" variant="primary">Go to Contact Me</Button>
+                                        </Link>
                                     </Card.Body>
                                     
                                 </Card>
