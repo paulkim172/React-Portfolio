@@ -16,9 +16,9 @@ class HomeIntro extends Component {
                 <div className="hero-content">
                     <MyNameIsTextComponent name={"Paul"} />
                     <Greetings message={"Nice to meet you, friend."} />
-                    <Link to={'/projects'} className='link'>
+                    <Link to={'/about-me'} className='link'>
                         <Button variant="primary">
-                            Projects
+                            About Me
                         </Button>
                     </Link>
                 </div>

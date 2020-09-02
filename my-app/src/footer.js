@@ -15,7 +15,7 @@ class Footer extends Component {
                             <h5>My Portfolio</h5>
                             <Nav className ="justify-content-center">
                                 <ul className="list-unstyled">
-                                    <li className="mr-auto"><Link to="/projects" className="link">Projects</Link></li>
+                                    <li className="mr-auto"><Link to="/portfolio" className="link">Projects</Link></li>
                                     <li className="mr-auto">Contributions</li>
                                     <li className="mr-auto">Miscellaneous</li>
                                 </ul>
@@ -25,10 +25,10 @@ class Footer extends Component {
                             <h5>About Me</h5>
                             <Nav className ="justify-content-center">
                                 <ul className="list-unstyled">
-                                    <li className="mr-auto">About Me</li>
-                                    <li className="mr-auto">Resume</li>
+                                    <li className="mr-auto"><Link to="/about-me" className="link">About Me</Link></li>
                                     <li className="mr-auto">Roadmap</li>
-                                    
+                                    <li className="mr-auto">Resume</li>
+                                                                        
                                 </ul>
                             </Nav>
                         </Col>
@@ -37,8 +37,9 @@ class Footer extends Component {
                             <Nav className ="justify-content-center">
                                 <ul className="list-unstyled">
                                     <li className="mr-auto">LinkedIn</li>
+                                    <li className="mr-auto">GitHub:</li>
                                     <li className="mr-auto">Email:</li>
-                                    <li className="mr-auto">Phone:</li>
+                                    
                                 </ul>
                             </Nav>
                         </Col>

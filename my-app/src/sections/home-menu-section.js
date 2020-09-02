@@ -22,7 +22,7 @@ class HomeMenu extends Component {
                                         <Card.Text>
                                             My work collection, including personal projects
                                         </Card.Text>
-                                        <Link to="/projects">
+                                        <Link to="/portfolio">
                                             <Button variant="primary">Go to Portfolio</Button>  
                                         </Link>
                                         
