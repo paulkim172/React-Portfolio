@@ -11,6 +11,7 @@ import Footer from './footer';
 import Home from './home-page';
 import AboutMe from './about-me-page';
 import Portfolio from './portfolio-page';
+import ContactMe from './contact-me-page';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path ="/portfolio" component={Portfolio}/>
         <Route path ="/about-me" component={AboutMe}/>
+        <Route path ="/contact-me" component={ContactMe}/>
 
 
       </Switch>

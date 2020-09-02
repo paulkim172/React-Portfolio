@@ -18,7 +18,7 @@ class Header extends Component {
         <Nav.Link><Link to="/" className="link">Home</Link></Nav.Link>
         <Nav.Link><Link to="/about-me" className="link">About Me</Link></Nav.Link>
         <NavDropdown title="My Portfolio" id="basic-nav-dropdown">
-            <NavDropdown.Item><Link to='/projects' className='link'>Projects</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to='/portfolio' className='link'>Projects</Link></NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             <NavDropdown.Divider />
