@@ -20,9 +20,9 @@ class Header extends Component {
         <NavDropdown title="My Portfolio" id="basic-nav-dropdown">
             <NavDropdown.Item><Link to='/portfolio' className='link'>Projects</Link></NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Miscellaneous</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/paulkim172">GitHub</NavDropdown.Item>
         </NavDropdown>
         </Nav>
         <Form inline>
